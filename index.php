@@ -1,9 +1,8 @@
 <?php
-echo 'Hello World';
-echo 'test 123';
-
 /*voorbeeld 1*/
 
 $aantal = 14;
-echo $aantal;
+$deze_jongen ="Dezen jongen is ";
+
+echo $deze_jongen.$aantal." jaar oud";
 
