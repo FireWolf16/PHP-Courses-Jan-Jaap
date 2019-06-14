@@ -1,6 +1,3 @@
-<?php
-
-?>
 <!doctype html>
 <html lang="en">
 <head>
@@ -18,17 +15,18 @@
 </head>
 <body>
 <?php
-/*for loop*/
-//for ($i = 1; $i<=10; $i++) {
-//    echo "<img src='img/MK-characters".$i.".png'>";
-//}
+/*for loop 100*/
+for ($i = 1; $i<=10; $i++) {
+    echo "<img src='img/MK-characters".$i.".png'>";
+}
 
-/**/
-//$nextC = array("330px-BarakaMK11.png", "KitanaMK11.png", "Noob_Saibot.png", "Shao_Kahn_2011.png");
-//foreach ($nextC as $next) {
-//    echo "<img src='img/next-MK-character/".$next."'>";
-//}
+/*foreach 120*/
+$nextC = array("330px-BarakaMK11.png", "KitanaMK11.png", "Noob_Saibot.png", "Shao_Kahn_2011.png");
+foreach ($nextC as $next) {
+    echo "<img src='img/next-MK-character/".$next."'>";
+}
 
+/*while loop 130*/
 $i= 1;
 while ($i<=10) {
     echo "<img src='img/MK-characters".$i.".png'>";
