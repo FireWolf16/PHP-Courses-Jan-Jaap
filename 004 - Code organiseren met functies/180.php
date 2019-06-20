@@ -1,3 +1,12 @@
+<?php
+$sporten = array("handbal", "korfbal", "hockey", "schaatsen");
+
+foreach ($sporten as $sport) {
+    echo "<li>".$sport."</li>";
+}
+
+?>
+
 <!doctype html>
 <html lang="en">
 <head>
@@ -8,12 +17,6 @@
     <title>Document</title>
 </head>
 <body>
-<?php
-$sporten = array("handbal", "korfbal", "hockey", "schaatsen");
-foreach ($sporten as $sport) {
-    echo "<li>".$sport."</li>";
-}
 
-?>
 </body>
 </html>
